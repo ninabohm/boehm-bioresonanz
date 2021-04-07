@@ -1,13 +1,4 @@
-/* body {
-    padding-top: 55px;
-    padding-bottom: 50px;;
-}
-
-.col-lg-4 {
-    padding-top: 50px;
-  } */
-
-  /* GLOBAL STYLES
+/* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
@@ -99,4 +90,8 @@ body {
     .featurette-heading {
       margin-top: 7rem;
     }
+  }
+
+  .carousel-inner {
+  font-family: 'Assistant', sans-serif;
   }
