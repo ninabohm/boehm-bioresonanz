@@ -92,6 +92,53 @@ body {
     }
   }
 
-  .carousel-inner {
-  font-family: 'Assistant', sans-serif;
+  /* .carousel-inner {
+      font-family: 'Assistant', sans-serif; 
+  } */
+
+.navbar-custom {
+    background-color: #335d11;
+}
+
+.navbar-custom .navbar-brand {
+    font-family: 'Tangerine', cursive; 
+    font-size: 30px;
+    color: #fff;
+    
   }
+
+.navbar-custom .navbar-text {
+      color: #d0d5d1;
+  }
+
+.navbar-custom .nav-item:hover .nav-link {
+      color: #fff;
+  }
+
+.navbar-custom .nav-item.active .nav-link{
+    color: #fff;
+}
+
+.navbar-custom .nav-item .nav-link {
+    color: #d0d5d1;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color:  #93ab3b !important;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    background-color: #829833 !important;
+    border: none !important;
+}
+
+.btn-secondary, .btn-secondary:active, .btn-secondary:visited {
+    background-color:  #93ab3b !important;
+    border: none !important;
+}
+
+.btn-secondary:hover {
+    background-color: #829833 !important;
+    border: none !important;
+}
