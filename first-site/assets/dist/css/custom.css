@@ -5,39 +5,10 @@ body {
   }
   
   
-  
- /* .carousel-item {
-    width:640px; 
-    height:360px;
-    overflow: hidden
-} 
-
-  .carousel {
-    margin-bottom: 4rem;
-  }
-  
-  .carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-  }
-  
-  .carousel-item {
-    height: 32rem;
-  }
-  .carousel-item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 50%;
-
-    
-  } */
-  
-  
   /* MARKETING CONTENT
   -------------------------------------------------- */
   
-  /* Center align the text within the three columns below the carousel */
+  /* Center align the text within the three columns* /
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -95,6 +66,7 @@ body {
       font-family: 'Assistant', sans-serif; 
   } */
 
+
 .navbar-custom {
     background-color: #335d11;
 }
@@ -116,10 +88,15 @@ body {
 
 .navbar-custom .nav-item.active .nav-link{
     color: #fff;
+    
 }
 
 .navbar-custom .nav-item .nav-link {
     color: #d0d5d1;
+}
+
+.navbar-custom .nav-item .nav-link.active {
+  color: #fff;
 }
 
 .btn-primary, .btn-primary:active, .btn-primary:visited {
