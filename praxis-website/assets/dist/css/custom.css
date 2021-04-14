@@ -62,10 +62,6 @@ body {
     }
   }
 
-  /* .carousel-inner {
-      font-family: 'Assistant', sans-serif; 
-  } */
-
 
 .navbar-custom {
     background-color: #335d11;
@@ -126,14 +122,14 @@ body {
 }
 
 
-.display-5 {
+.px-4 .display-5 {
     font-family: 'Tangerine';
     font-size: 84px;
     color: #fff;
     margin-top: 70px;
 }
 
-.lead {
+.px-4 .lead {
     color: #fff;
 }
 
@@ -145,6 +141,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    opacity: 0.8;
     
 }
 
@@ -160,3 +157,10 @@ body {
 .icon-background {
   color: #335d11;
 }
+
+
+.container {
+  max-width: 960px;
+}
+
+
