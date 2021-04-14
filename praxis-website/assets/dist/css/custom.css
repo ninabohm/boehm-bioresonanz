@@ -3,11 +3,7 @@ body {
     color: #5a5a5a;
   }
   
-  
-  /* CONTENT
-  -------------------------------------------------- */
-  
-  /* Center align the text within the three columns */
+
   .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
     text-align: center;
@@ -56,110 +52,112 @@ body {
     }
   }
   
-  @media (min-width: 62em) {
-    .featurette-heading {
-      margin-top: 7rem;
+
+
+  .bg-dark {
+    background: #335d11 !important;
+  }
+  
+  .navbar-custom {
+      background-color: #335d11;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+  .navbar-custom .navbar-brand {
+      font-family: 'Tangerine', cursive; 
+      font-size: 30px;
+      color: #fff;
+      
     }
+
+  .navbar-custom .navbar-text {
+        color: #d0d5d1;
+    }
+
+  .navbar-custom .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+  .navbar-custom .nav-item.active .nav-link{
+      color: #fff;
+      
   }
 
-
-.navbar-custom {
-    background-color: #335d11;
-}
-
-.navbar-custom .navbar-brand {
-    font-family: 'Tangerine', cursive; 
-    font-size: 30px;
-    color: #fff;
-    
-  }
-
-.navbar-custom .navbar-text {
+  .navbar-custom .nav-item .nav-link {
       color: #d0d5d1;
   }
 
-.navbar-custom .nav-item:hover .nav-link {
-      color: #fff;
+  .navbar-custom .nav-item .nav-link.active {
+    color: #fff;
   }
 
-.navbar-custom .nav-item.active .nav-link{
-    color: #fff;
-    
-}
+  .btn-primary, .btn-primary:active, .btn-primary:visited {
+      background-color:  #93ab3b !important;
+      border: none !important;
+      box-shadow: none !important;
+      
+  }
 
-.navbar-custom .nav-item .nav-link {
-    color: #d0d5d1;
-}
-
-.navbar-custom .nav-item .nav-link.active {
-  color: #fff;
-}
-
-.btn-primary, .btn-primary:active, .btn-primary:visited {
-    background-color:  #93ab3b !important;
-    border: none !important;
-    box-shadow: none !important;
-    
-}
-
-.btn-primary:hover {
-    background-color: #829833 !important;
-    border: none !important;
-    box-shadow: none !important;
-}
+  .btn-primary:hover {
+      background-color: #829833 !important;
+      border: none !important;
+      box-shadow: none !important;
+  }
 
 
-.btn-secondary, .btn-secondary:active, .btn-secondary:visited {
-    background-color:  #93ab3b !important;
-    border: none !important;
-    box-shadow: none !important;
-}
+  .btn-secondary, .btn-secondary:active, .btn-secondary:visited {
+      background-color:  #93ab3b !important;
+      border: none !important;
+      box-shadow: none !important;
+  }
 
-.btn-secondary:hover {
-    background-color: #829833 !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-
-
-.px-4  {
-    background-image: url('../../brand/pexels-elle-hughes-3513225.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    color: #fff;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
-}
+  .btn-secondary:hover {
+      background-color: #829833 !important;
+      border: none !important;
+      box-shadow: none !important;
+  }
 
 
-.px-4 .display-5 {
-    font-family: 'Tangerine';
-    color: #fff;
-    margin-top: 70px;
-    font-size: 130px;
-}
-
-.px-4 .lead {
-  font-size: 32px;
-}
-
-.pricing-header {
-  text-align: left;
-}
-
-.icon-background {
-  color: #335d11;
-}
+  .px-4  {
+      background-image: url('../../brand/pexels-jessica-lewis-1118423.jpg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      color: #fff;
+      padding-top: 200px;
+      padding-bottom: 200px;
+      
+      
+  }
 
 
-.container {
-  max-width: 960px;
-}
+  .px-4 .display-5 {
+      font-family: 'Tangerine';
+      color: #fff;
+      margin-top: 70px;
+      font-size: 130px;
+  }
+
+  .px-4 .lead {
+    font-size: 32px;
+  }
+
+  .pricing-header {
+    text-align: left;
+  }
+
+  .icon-background {
+    color: #335d11;
+  }
 
 
-.cover-container {
-  max-width: 42em;
-}
+  .container {
+    max-width: 960px;
+  }
+
+
+  .cover-container {
+    max-width: 42em;
+  }
+
