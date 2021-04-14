@@ -122,36 +122,32 @@ body {
 }
 
 
-.px-4 .display-5 {
-    font-family: 'Tangerine';
-    font-size: 84px;
-    color: #fff;
-    margin-top: 70px;
-}
-
-.px-4 .lead {
-    color: #fff;
-}
-
-
-.px-4 {
+.px-4  {
     background-image: url('../../brand/pexels-elle-hughes-3513225.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;
-    opacity: 0.8;
+    color: #fff;
+    padding-top: 200px;
+    padding-bottom: 200px;
     
+}
+
+
+.px-4 .display-5 {
+    font-family: 'Tangerine';
+    color: #fff;
+    margin-top: 70px;
+    font-size: 130px;
+}
+
+.px-4 .lead {
+  font-size: 32px;
 }
 
 .pricing-header {
   text-align: left;
-}
-
-.display-4 {
-  padding-top: 70px;
-  padding-bottom: 40px;
 }
 
 .icon-background {
@@ -164,3 +160,6 @@ body {
 }
 
 
+.cover-container {
+  max-width: 42em;
+}
